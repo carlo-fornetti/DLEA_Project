@@ -19,6 +19,6 @@ module load miniconda3
 source "$CONDA_PREFIX/etc/profile.d/conda.sh"
 conda activate myenv
 
-python pretrain.py
+python train.py
 
 conda deactivate
